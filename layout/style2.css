@@ -1,0 +1,7 @@
+#fundo{
+    border-radius: 1%;
+    background-image: url("image/naruto.png");
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
