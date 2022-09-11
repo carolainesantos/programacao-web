@@ -9,14 +9,17 @@
    </head>
    <body>
       <div id="container">
-         <img id="img-icon" src="layout/image/icon-login2.png" alt="">
-         <input class="inp-login" type="text" name="txtname" value="Username"> 
-         <input class="inp-login" type="password" name="password" value="Password">
-         <div id="remember-forgot">
-            <input id="inp-checkbox" type="checkbox" name="chkRememberme"> Remember-me
-            <span class="forgot-pass">Forgot Password?</span>
-         </div>
-         <button type="submit"> LOGIN </button>
+         <img id="img-icon" src="layout/image/icon-login.png" alt="">
+         
+         <form action="" method="post">
+            <input class="inp-login" type="text" name="txtname" placeholder="Username" required> 
+            <input class="inp-login" type="password" name="password" placeholder="Password" required>
+            <div id="remember-forgot">
+               <input id="inp-checkbox" type="checkbox" name="chkRememberme"> Remember-me
+               <span class="forgot-pass">Forgot Password?</span>
+            </div>
+            <button type="submit">LOGIN</button>
+         </form>
       </div>
    </body>
 </html>
