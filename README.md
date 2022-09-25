@@ -14,4 +14,4 @@ Login-1
 
 Login-2
 
-![alt text](hmltCss/layout/image/login-2.png)
+![alt text](htmlCss/layout/image/login-2.png)
