@@ -2,19 +2,19 @@
 
 ♥♥ 1- Crie um programa que solicite dois numeros reais, realize a soma; Imprima o resultado;
 
-♥ 2- Crie um programa que solicite a cotação do dolar em real, a quantidade de dolar para ser convertido, converta o dolar para real (real = qtdDolar * cotacaoDola); Imprima o resultado; 
+♥♥ 2- Crie um programa que solicite a cotação do dolar em real, a quantidade de dolar para ser convertido, converta o dolar para real (real = qtdDolar * cotacaoDola); Imprima o resultado; 
 
-♥ 3- Crie um programa que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado;
+♥♥ 3- Crie um programa que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado;
 
-♥ 4- Crie um programa que converta fahrenhelt para celsius;
+♥♥ 4- Crie um programa que converta fahrenhelt para celsius;
 
-♥ 5- Crie um programa que solicite a quantidade de milhas e converta para quilometros (1milha = 1.60934kms);
+♥♥ 5- Crie um programa que solicite a quantidade de milhas e converta para quilometros (1milha = 1.60934kms);
 
-♥ 6- Crie um programa que solicite a duração de um evento em segundos e imprima em horas, minutos e segundos;
+♥♥ 6- Crie um programa que solicite a duração de um evento em segundos e imprima em horas, minutos e segundos;
 
-♥ 7- Crie um programa que solicite 4 notas e calcule a média. Imprima o resultado;
+♥♥ 7- Crie um programa que solicite 4 notas e calcule a média. Imprima o resultado;
 
-♥ 8- Crie um programa que calcule a idade de uma pessoa;  
+♥♥ 8- Crie um programa que calcule a idade de uma pessoa;  
 
 
 ----------------------------------------------------- Estrutura de Condição ---------------------------------------------------
@@ -65,15 +65,16 @@ Fórmula : ValorTotal = (valor1*quant1 + valor2*quant2)*(IPI/100 + 1)
 
 ----------------------------------------------------- Estrutura de Repetição -----------------------------------------------------
 
-23- Crie um programa que solicite um numero e escreva "Batata" enquanto o usuario digita 1;
+ 23- Crie um programa que solicite um numero e escreva "Batata" enquanto o usuario digita 1;
 
 24- Crie um programa que imprima a tabuada de um numero de 0 a 10;
 
 25- Crie um programa que solicite quantidade de pessoas, depois solicite a altura de cada uma e calcule a media da altura das pessoas;
 
-26- Crie um programa que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado; (use menos variaveis do que o exercicio anterior!);
+♥ 26- Crie um programa que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado; (use menos variaveis do que o exercicio anterior!);
 
 27- Crie um programa que calcule o peso de um elevador, onde cada pessoa que entra informa o peso, caso atinga 180KG, o elevador informa que esta no peso maximo;
 
 DESAFIO - Crie um programa que imprima fibonacci até o 10º termo;
+
 DESAFIO 2.0 - Crie um programa que solicite a quantidade de termos e imprima fibonacci até termo solicitado;

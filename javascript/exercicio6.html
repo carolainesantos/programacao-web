@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=" pt-br">
+   <head>
+        <meta charset="TF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo</title>
+        <script>
+            function validar(){
+                var duracaoEvento, horas, minutos;
+                
+                duracaoEvento=parseFloat(prompt("Digite os segundos:"));
+
+                horas=(duracaoEvento/3600);
+                minutos=(duracaoEvento/60);
+
+                alert(
+                    "Duração em horas: " + horas +
+                    "\nDuração em minutos: " + minutos
+                );
+                
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="validar()">Executar</button>
+    </body>
+</html>
+            
+        
+
+
+
+
+
