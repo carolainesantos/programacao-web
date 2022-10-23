@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang=" pt-br">
+   <head>
+        <meta charset="TF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo</title>
+        <script>
+            function validar(){
+                var imc, altura, peso;
+
+                altura=parseFloat(prompt("Informe sua altura: "));
+                peso=parseFloat(prompt("Informe seu peso: "));
+
+                imc=peso/(altura * altura); 
+                var msg = "Seu IMC é: " + imc + "\n";
+
+                if(imc < 18.5){
+                    alert(msg + "Magreza");
+                } else if(imc < 25){
+                    alert(msg + "Normal");
+                } else if(imc < 30){
+                    alert(msg + "Sobrepeso");
+                } else if(imc < 40){
+                    alert(msg + "Obesidade");
+                } else {
+                    alert(msg + "Obesidade Grave");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="validar()">Executar</button>
+    </body>
+</html>
+            
+        
+
+
+
+
+

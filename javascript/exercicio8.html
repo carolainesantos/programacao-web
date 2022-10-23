@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=" pt-br">
+   <head>
+        <meta charset="TF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo</title>
+        <script>
+            function validar(){
+                var anoNasc, mesNasc, idade;
+                var anoAtual = new Date().getFullYear();
+                var mesAtual = new Date().getMonth()+1;
+
+                anoNasc=parseFloat(prompt("Digite ano de Nascimento: "));
+                mesNasc=parseInt(prompt("Digite o mês de nascimento: "));
+            
+                idade=(anoAtual - anoNasc);
+                if(mesAtual < mesNasc){
+                    idade=idade-1 
+                }
+                alert("Sua idade é: " + idade); 
+
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="validar()">Executar</button>
+    </body>
+</html>
+            
+        
+
+
+
+
+
