@@ -1,0 +1,19 @@
+início {
+    //mostre os números PARES do intervalo entre MIN e MAX
+    
+    inteiro: min;
+    inteiro: max; 
+    inteiro: n; 
+    
+    leia("Minimo", min);
+    leia("Maximo", max); 
+    
+    n = min; 
+    enquanto(n <= max) {
+      se (n % 2 <> 0){
+        escreva(n);
+      } 
+        n = n + 1;
+    }
+    
+}

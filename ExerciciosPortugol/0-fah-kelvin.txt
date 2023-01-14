@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio ()
+	{
+		real temperaturaFahrenheit
+		real temperaturaKelvin
+		
+		escreva("Graus em Fahrenheit: ")
+		leia(temperaturaFahrenheit)
+		
+		temperaturaKelvin = (temperaturaFahrenheit - 32) * 0.55556 + 273.13
+		escreva("Resultado em Kelvin: " + temperaturaKelvin)
+	}
+}

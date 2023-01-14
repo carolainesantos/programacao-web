@@ -1,0 +1,23 @@
+programa 
+{
+	funcao inicio()
+	{
+		inteiro a,b,c
+		
+		escreva("Digite valor de a: ")
+		leia(a)
+		escreva("Digite valor de b: ")
+		leia(b)
+		escreva("Digite valor de c: ")
+		leia(c)
+		
+		 se (a < (b + c)) {
+            se (b < (a + c)) {
+                se (c < (a + b)) {
+                    escreva("\nÉ um triângulo")
+                }
+            }
+        }
+        //escreva("\nNão é um triângulo")
+	}
+}

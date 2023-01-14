@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio ()
+	{
+		real duracaoEvento
+		real horas
+		real minutos
+		escreva("Tempo de duração: ")
+		leia(duracaoEvento)
+		
+		minutos= duracaoEvento / 60
+		horas= duracaoEvento / 3600
+		
+		escreva("Duração em horas: " + horas )
+		escreva("\nDuração em minutos: " + minutos )
+		escreva("\nDuração em segundos: " + duracaoEvento )
+		
+		
+		
+		
+		
+		
+		
+		
+	}		
+}		
+		

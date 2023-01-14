@@ -1,0 +1,33 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro selecione 
+		
+		escreva("Digite 1 para calcular de Fa para Ke:\n")
+		escreva("Digite 2 para calcular de Fa para Cel:\n")
+		leia(selecione)
+		
+		escolha(selecione) {
+			caso 1:
+				real kelvin
+				real fahre
+				
+				escreva("Digite graus em fahre: ")
+				leia(fahre)
+				
+				kelvin = (fahre - 32) * 0.55556 + 273.1
+				escreva("Resultado em Kelvin:" + kelvin)
+				pare
+			caso 2:
+				real fahren, cel
+				
+				escreva("Digite em fahre:")
+				leia(fahren)
+				
+				cel = (fahren - 32) * 0.55556
+				escreva("Resultado em cel: " + cel)
+				pare
+		}
+	}
+}

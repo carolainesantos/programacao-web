@@ -1,0 +1,44 @@
+programa 
+{
+	funcao inicio()
+	{
+		
+		inteiro anoNasc
+		inteiro mesNasc
+		inteiro anoAtual = 2022
+		inteiro mesAtual = 6
+		inteiro idade
+		
+		escreva("Ano de Nascimento: ")
+		leia(anoNasc)
+		escreva("Mês de Nascimento: ")
+		leia(mesNasc) 
+		
+		idade = (anoAtual - anoNasc)
+		
+		se(mesNasc > mesAtual) {
+			idade=idade-1
+		}
+		
+		escreva("Sua idade é: " + idade)
+		
+		se(idade >= 16){
+			escreva("\nApto para votar ")
+			
+			se(idade >= 18){
+				escreva("\nApto para CNH")
+			}senao {
+				escreva("\nNegado para CNH")
+			} 
+				
+		}senao {
+			escreva("\nNegado para votação e CNH")
+		}
+
+		
+
+		
+		
+		
+	}
+}

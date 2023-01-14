@@ -1,0 +1,18 @@
+programa 
+{
+	funcao inicio()
+	{
+
+		inteiro numero
+		
+		escreva("Digite o valor: ")
+		leia(numero)
+		inteiro resto = numero%2
+		
+		se(resto == 0){
+			escreva("Par")
+		} senao {
+			escreva("Ímpar")
+		}
+	}
+}

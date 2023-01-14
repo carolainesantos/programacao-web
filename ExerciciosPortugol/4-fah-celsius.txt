@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio ()
+	{
+		real fahrenheit
+		real celsius
+		
+		escreva("Graus em Fahrenheit: ")
+		leia(fahrenheit)
+		
+		celsius = (fahrenheit - 32) * 0.5
+		escreva("Resultado em celsius: " + celsius)
+	}
+}

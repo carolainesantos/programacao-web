@@ -1,0 +1,18 @@
+programa 
+{
+	funcao inicio()
+	{
+	real valorBatata
+	real valorTomate
+	real resultado
+	
+	escreva("Valor Batata:")
+	leia(valorBatata)
+	escreva("Valor Tomate:")
+	leia(valorTomate)
+	
+	resultado = (valorBatata + valorTomate)
+	escreva("Resultado:" + resultado)
+	
+	}
+}

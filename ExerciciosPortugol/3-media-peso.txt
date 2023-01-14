@@ -1,0 +1,24 @@
+programa 
+{
+	funcao inicio()
+	{
+		real pesoP1, pesoP2, pesoP3, pesoP4, pesoP5
+		real mediaPeso
+		
+		escreva("Peso 1ª pessoa: ")
+		leia(pesoP1)
+		escreva("Peso 2ª pessoa: ")
+		leia(pesoP2)
+		escreva("Peso 3ª pessoa: ")
+		leia(pesoP3)
+		escreva("Peso 4ª pessoa: ")
+		leia(pesoP4)
+		escreva("Peso 5ª pessoa: ")
+		leia(pesoP5) 
+		
+		mediaPeso = (pesoP1 + pesoP2 + pesoP3 + pesoP4 + pesoP5) / 5
+		escreva("Media:" + mediaPeso) 
+		
+		
+	}
+}

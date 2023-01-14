@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+		real cotacaoDollar
+		real qtdeConverter
+		
+		escreva("Qual a cotação do dollar? ")
+		leia(cotacaoDollar)
+		escreva("Quantidade para converter: ")
+		leia(qtdeConverter)
+		
+		real resultado = cotacaoDollar * qtdeConverter 
+		escreva("O valor é: " + resultado)
+	}
+}
