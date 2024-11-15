@@ -12,8 +12,8 @@ programa
 		leia(c)
 		
 		 se (a < (b + c)) {
-            se (b < (a + c)) {
-                se (c < (a + b)) {
+            	   se (b < (a + c)) {
+                  se (c < (a + b)) {
                     escreva("\nÉ um triângulo")
                 }
             }
